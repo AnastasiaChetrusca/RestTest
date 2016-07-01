@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6064" started-at="2016-07-01T18:31:26Z" finished-at="2016-07-01T18:31:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6064" started-at="2016-07-01T18:31:26Z" finished-at="2016-07-01T18:31:32Z">
+      <class name="TestRest">
+        <test-method status="PASS" signature="ConnectTest()[pri:0, instance:TestRest@31a5c39e]" name="ConnectTest" duration-ms="1151" started-at="2016-07-01T21:31:26Z" finished-at="2016-07-01T21:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConnectTest -->
+        <test-method status="PASS" signature="testInputs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestRest@31a5c39e]" name="testInputs" duration-ms="312" started-at="2016-07-01T21:31:28Z" data-provider="Testinputs" finished-at="2016-07-01T21:31:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[22.02.2015]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Official exchange rate]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputs -->
+        <test-method status="PASS" signature="testInputs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestRest@31a5c39e]" name="testInputs" duration-ms="538" started-at="2016-07-01T21:31:28Z" data-provider="Testinputs" finished-at="2016-07-01T21:31:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[42057.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ ksajdk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputs -->
+        <test-method status="PASS" signature="testInputs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestRest@31a5c39e]" name="testInputs" duration-ms="600" started-at="2016-07-01T21:31:29Z" data-provider="Testinputs" finished-at="2016-07-01T21:31:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[22.02.2015]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Official exchange rate]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputs -->
+        <test-method status="PASS" signature="testInputs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestRest@31a5c39e]" name="testInputs" duration-ms="725" started-at="2016-07-01T21:31:29Z" data-provider="Testinputs" finished-at="2016-07-01T21:31:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[78.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23.02.2015]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Official exchange rate]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputs -->
+        <test-method status="PASS" signature="testInputs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestRest@31a5c39e]" name="testInputs" duration-ms="610" started-at="2016-07-01T21:31:30Z" data-provider="Testinputs" finished-at="2016-07-01T21:31:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-129.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[24.02.2015]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DWQJdoqjf exchange rate]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputs -->
+        <test-method status="PASS" signature="testInputs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestRest@31a5c39e]" name="testInputs" duration-ms="626" started-at="2016-07-01T21:31:31Z" data-provider="Testinputs" finished-at="2016-07-01T21:31:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[32768.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25.02.2015]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Official exchange rate]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputs -->
+        <test-method status="PASS" signature="testInputs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestRest@31a5c39e]" name="testInputs" duration-ms="601" started-at="2016-07-01T21:31:31Z" data-provider="Testinputs" finished-at="2016-07-01T21:31:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5555.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[26.02.2015]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Official exchange rate]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputs -->
+        <test-method status="PASS" signature="testInputs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestRest@31a5c39e]" name="testInputs" duration-ms="44" started-at="2016-07-01T21:31:32Z" data-provider="Testinputs" finished-at="2016-07-01T21:31:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-45302.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[akdwpkpf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputs -->
+      </class> <!-- TestRest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
