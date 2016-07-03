@@ -46,9 +46,9 @@ public class GetBnm {
 
 	        if(!result.contains("<?xml"))
 	        	
-	            return 2;  //PASSED
+	            return 2;  // return 2 if there is no "<?xml" in response result( inputs redirict to the main page)
 	        if(result.contains("Request in bad format"))
-	            return 1; //FAILD
+	            return 1; //return 1 if there is "Request in bad format" in response result
 
 	        stringRead = new StringReader(result);
 	        xstream = new XStream();
@@ -56,10 +56,10 @@ public class GetBnm {
 	        valcurs = (ValCurs)xstream.fromXML(stringRead);
 	        
 	        if(valcurs.getDate().equals(date))
-	            return 3; // PASSED
+	            return 3; // return 3 if the dates match
 	        
 	        if(valcurs.getName().equals(name))
-	            return 3;
+	            return 3; // return 3 if the names match
 	        
 	        
 	    return 0;

@@ -36,7 +36,7 @@ public class Inputs {
                 	m = 0;
                 	for (int j = firstCol; j <= Cols; j++, m++) {
 	                    excelInputs[n][m] = getData(i, j);
-	                   // System.out.println(excelInputs[n][m]);
+	                 
 	                }
 
 	            }
@@ -63,7 +63,7 @@ public class Inputs {
 	            Cell = ExcelWSheet.getRow(row).getCell(col);
 	            int dataType = Cell.getCellType();
 
-	            if (dataType == 3) {
+	            if (dataType == 4) {
 	                return "";
 	            } else if (dataType == 0) {
 	                double res = Cell.getNumericCellValue();
