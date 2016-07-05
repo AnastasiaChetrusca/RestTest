@@ -31,10 +31,7 @@ public class TestRest {
     	@BeforeTest
     	public void init()
     	{
-    		//logger.debug("DEBUG");
-    		//logger.info("INFO");
-    		//logger.error("ERROR");
-    		//logger.info("INIT");
+    
     		Reporter.log(" - ");
     		Reporter.log(" - ");
     		Reporter.log(" - ");
