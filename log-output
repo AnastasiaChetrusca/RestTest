@@ -1,0 +1,24 @@
+2016-07-05 21:19:11 INFO  TestRest: - Actual result: 200 Expected value: 200
+2016-07-05 21:19:36 INFO  TestRest: - Actual result: 3 Expected value:3.0
+2016-07-05 21:19:37 INFO  TestRest: - Actual result: 3 Expected value: 3
+2016-07-05 21:19:37 INFO  TestRest: - Actual result: 2 Expected value: 2
+2016-07-05 21:19:37 INFO  TestRest: - Actual result: 2 Expected value: 2
+2016-07-05 21:19:38 INFO  TestRest: - Actual result: 2 Expected value: 2
+2016-07-05 21:19:38 INFO  TestRest: - Actual result: 2 Expected value: 2
+2016-07-05 21:19:38 INFO  TestRest: - Actual result: 2 Expected value: 2
+2016-07-05 21:19:38 INFO  TestRest: - Actual result: 1 Expected value: 1
+2016-07-05 21:19:39 INFO  TestRest: - Actual result: 2 Expected value: 2
+2016-07-05 21:19:39 INFO  TestRest: - Actual result: 2 Expected value: 2
+2016-07-05 21:19:39 INFO  TestRest: - Actual result: 1 Expected value: 1
+2016-07-05 21:20:52 INFO  TestRest: - Actual result: 200 Expected value: 200
+2016-07-05 21:20:55 INFO  TestRest: - Actual result: 3 Expected value:3.0
+2016-07-05 21:20:55 INFO  TestRest: - Actual result: 3 Expected value: 3
+2016-07-05 21:20:55 INFO  TestRest: - Actual result: 2 Expected value: 2
+2016-07-05 21:20:56 INFO  TestRest: - Actual result: 2 Expected value: 2
+2016-07-05 21:20:56 INFO  TestRest: - Actual result: 2 Expected value: 2
+2016-07-05 21:20:56 INFO  TestRest: - Actual result: 2 Expected value: 2
+2016-07-05 21:20:56 INFO  TestRest: - Actual result: 2 Expected value: 2
+2016-07-05 21:20:56 INFO  TestRest: - Actual result: 1 Expected value: 1
+2016-07-05 21:20:57 INFO  TestRest: - Actual result: 2 Expected value: 2
+2016-07-05 21:20:57 INFO  TestRest: - Actual result: 2 Expected value: 2
+2016-07-05 21:20:57 INFO  TestRest: - Actual result: 1 Expected value: 1

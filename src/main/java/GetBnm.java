@@ -12,58 +12,61 @@ import com.thoughtworks.xstream.XStream;
 //Get the object from XML
 
 public class GetBnm {
-	 private final static String PAGE  = "https://www.bnm.md/en/official_exchange_rates";
-	    private String array;
-	    private BufferedReader bufferRead;
-	    private StringReader stringRead;
-	    private XStream xstream;
-	    private ValCurs valcurs;
-	    public GetBnm(){
-	        array="";
-	    }
+	private final static String PAGE = "https://www.bnm.md/en/official_exchange_rates";
+	private String array;
+	private BufferedReader bufferRead;
+	private StringReader stringRead;
+	private XStream xstream;
+	private ValCurs valcurs;
 
-	    public String streamConverter(InputStream in) throws IOException {
-	        StringBuilder sb = new StringBuilder();
-	        bufferRead = new BufferedReader(new InputStreamReader(in));
-	        while((array = bufferRead.readLine())!=null){
-	            sb.append(array);
-	        }
-	        return sb.toString();
-	    }
-	    public Integer getXml(String get_xml, String date, String name){
-	        URL obj = null;
-	        String result="";
-	        try {
-	            obj = new URL(PAGE+"?get_xml="+get_xml+"&date="+date);
-	            HttpURLConnection con = (HttpURLConnection) obj.openConnection();
-	            con.setRequestMethod("GET");
-	            result = streamConverter(con.getInputStream());
-	        } catch (MalformedURLException e) {
-	            e.printStackTrace();
-	        } catch (IOException e) {
-	            e.printStackTrace();
-	        }
+	public GetBnm() {
+		array = "";
+	}
 
-	        if(!result.contains("<?xml"))
-	        	
-	            return 2;  // return 2 if there is no "<?xml" in response result( inputs redirict to the main page)
-	        if(result.contains("Request in bad format"))
-	            return 1; //return 1 if there is "Request in bad format" in response result
+	public String streamConverter(InputStream in) throws IOException {
+		StringBuilder sb = new StringBuilder();
+		bufferRead = new BufferedReader(new InputStreamReader(in));
+		while ((array = bufferRead.readLine()) != null) {
+			sb.append(array);
+		}
+		return sb.toString();
+	}
 
-	        stringRead = new StringReader(result);
-	        xstream = new XStream();
-	        xstream.autodetectAnnotations(true);
-	        valcurs = (ValCurs)xstream.fromXML(stringRead);
-	        
-	        if(valcurs.getDate().equals(date))
-	            return 3; // return 3 if the dates match
-	        
-	        if(valcurs.getName().equals(name))
-	            return 3; // return 3 if the names match
-	        
-	        
-	    return 0;
+	public Integer getXml(String get_xml, String date, String name) {
+		URL obj = null;
+		String result = "";
+		try {
+			obj = new URL(PAGE + "?get_xml=" + get_xml + "&date=" + date);
+			HttpURLConnection con = (HttpURLConnection) obj.openConnection();
+			con.setRequestMethod("GET");
+			result = streamConverter(con.getInputStream());
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 
-	    }
+		if (!result.contains("<?xml"))
+
+			return 2; // return 2 if there is no "<?xml" in response result(
+						// inputs redirict to the main page)
+		if (result.contains("Request in bad format"))
+			return 1; // return 1 if there is "Request in bad format" in
+						// response result
+
+		stringRead = new StringReader(result);
+		xstream = new XStream();
+		xstream.autodetectAnnotations(true);
+		valcurs = (ValCurs) xstream.fromXML(stringRead);
+
+		if (valcurs.getDate().equals(date))
+			return 3; // return 3 if the dates match
+
+		if (valcurs.getName().equals(name))
+			return 3; // return 3 if the names match
+
+		return 0;
+
+	}
 
 }

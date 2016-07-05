@@ -6,6 +6,7 @@
       <class name="TestRest">
         <methods>
           <include name="testInputs" invocation-numbers="0 5"/>
+          <include name="init"/>
         </methods>
       </class> <!-- TestRest -->
     </classes>
